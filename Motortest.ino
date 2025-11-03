@@ -3,7 +3,7 @@
   DRV8833-Dual-Motor-Driver-Module
   made on 23 Nov 2020
   by Amir Mohammad Shojaee @ Electropeak
-  Home
+  Edited by Syed Rehman
 */
 
 // #define AIN1 4
@@ -254,47 +254,47 @@
 //   stepper.setCurrentPosition(0);
 // }
 
-// // void loop() {
-// //   // Set the current position to 0:
-// //   //stepper.setCurrentPosition(0);
+// void loop() {
+//   // Set the current position to 0:
+//   //stepper.setCurrentPosition(0);
 
-// //   // // Run the motor forward at 500 steps/second until the motor reaches 4096 steps (1 revolution):
-// //   // while (stepper.currentPosition() != 4096) {
-// //   //   stepper.setSpeed(1000);
-// //   //   stepper.runSpeed();
-// //   // }
-// //   // delay(1000);
+//   // // Run the motor forward at 500 steps/second until the motor reaches 4096 steps (1 revolution):
+//   // while (stepper.currentPosition() != 4096) {
+//   //   stepper.setSpeed(1000);
+//   //   stepper.runSpeed();
+//   // }
+//   // delay(1000);
 
-// //   // // Reset the position to 0:
-// //   //stepper.setCurrentPosition(0);
-// //   stepper.moveTo(2048); // sets the location we want to move to
-// //   stepper.setAcceleration(100); // sets the acceleration to 100
-// //   stepper.runToPosition(); //runs until it has reached the position given by move to and is a blocking function
+//   // // Reset the position to 0:
+//   //stepper.setCurrentPosition(0);
+//   stepper.moveTo(2048); // sets the location we want to move to
+//   stepper.setAcceleration(100); // sets the acceleration to 100
+//   stepper.runToPosition(); //runs until it has reached the position given by move to and is a blocking function
 
-// //   // stepper.setSpeed(-1000);
-// //   // stepper.moveTo(0);
+//   // stepper.setSpeed(-1000);
+//   // stepper.moveTo(0);
 
-// //   // // Reset the position to 0:
-// //   // stepper.setCurrentPosition(0);
+//   // // Reset the position to 0:
+//   // stepper.setCurrentPosition(0);
 
-// //   // // Run the motor backwards at 1000 steps/second until the motor reaches -4096 steps (1 revolution):
-// //   // while (stepper.currentPosition() != -4096) {
-// //   //   stepper.setSpeed(-1000);
-// //   //   stepper.runSpeed();
-// //   // }
+//   // // Run the motor backwards at 1000 steps/second until the motor reaches -4096 steps (1 revolution):
+//   // while (stepper.currentPosition() != -4096) {
+//   //   stepper.setSpeed(-1000);
+//   //   stepper.runSpeed();
+//   // }
 
-// //   // delay(1000);
+//   // delay(1000);
 
-// //   // // Reset the position to 0:
-// //   // stepper.setCurrentPosition(0);
-// //   // // Run the motor forward at 1000 steps/second until the motor reaches 8192 steps (2 revolutions):
-// //   // while (stepper.currentPosition() != 8192) {
-// //   //   stepper.setSpeed(1000);
-// //   //   stepper.runSpeed();
-// //   // }
+//   // // Reset the position to 0:
+//   // stepper.setCurrentPosition(0);
+//   // // Run the motor forward at 1000 steps/second until the motor reaches 8192 steps (2 revolutions):
+//   // while (stepper.currentPosition() != 8192) {
+//   //   stepper.setSpeed(1000);
+//   //   stepper.runSpeed();
+//   // }
 
-// //   // delay(3000);
-// // }
+//   // delay(3000);
+// }
 
 
 // // void loop() {
@@ -364,5 +364,3 @@
 //     delay(15);                       // waits 15ms for the servo to reach the position
 //   }
 // }
-
-
